@@ -4,12 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #ece8ec;
-}
+/* Navbar */
 
 .navbar {
-    background-color: #bbbcef;
+    background-color: #292ba1;
     padding: 0.5rem 2rem;
     display: flex;
     align-items: center;
@@ -23,9 +21,54 @@ body {
 
 .menu-item a {
     text-decoration: none;
-    color: black;
+    color: rgb(243, 241, 241);
 }
 
 .menu-item a:hover {
-    color: blue;
+    color: rgb(11, 11, 12);
+}
+
+.logo {
+    color: bisque;
+}
+
+/* Banner */
+.banner {
+    height: 80vh;
+    display: flex;
+    column-gap: 10vw;
+}
+
+.banner-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3vh;
+    margin-left: 10vw;
+}
+
+.banner-text button {
+    width: fit-content;
+    padding: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.banner-text button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%;
 }
