@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #292ba1;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: rgb(243, 241, 241);
+}
+
+.menu-item a:hover {
+    color: rgb(11, 11, 12);
+}
+
+.logo {
+    color: white;
+}
+
+/* Banner */
+#banner {
+    height: 80vh;
+    display: flex;
+    column-gap: 10vw;
+}
+
+#about {
+    height: 80vh;
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 10vw;
+}
+
+.banner-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3vh;
+    margin-left: 10vw;
+}
+
+.banner-text button {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.banner-text button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.banner-image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-image img {
+    width: 80%;
+    height: 80%;
+}
